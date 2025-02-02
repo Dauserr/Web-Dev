@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Surface Pro Features</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 85%;
+            padding: 10px 0;
+        }
+        .header-icons {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+        }
+        .header-icons a {
+            color: #262626;
+            text-decoration: none;
+            font-size: 0.8rem;
+            padding: 2px 0;
+        }
+        .header-icons a:hover {
+            text-decoration: underline;
+        }
+        .header-icons img {
+            width: 108px;
+            height: auto;
+            padding: 5px 0;
+        }
+        .learnmore {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0067b8;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.8rem;
+            width: 100%;
+        }
+        .learnmore a{
+            color: white;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            font-size:1rem ;
+        }
+        .learnmore a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            width: 85%;
+        }
+        .feature-box {
+            background: white;
+            width: 25%;
+            border: 1px solid #dddfe2;
+            box-sizing: border-box;
+            text-align: left;
+            margin: 0 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        h2 {
+            color: #262626;
+            font-size: 1.5rem;
+            margin: 0px 0px;
+            padding: 0 20px;
+        }
+        p {
+            color: #000;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            padding: 0px 20px;
+        }
+        .purchase {
+            background: #0067b8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: auto 20px 20px 20px;
+            width: fit-content;
+        }
+        .purchase:hover {
+            background: #0056a3;
+        }
+        .container img {
+            width: 100%;
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover; /* Ensures the image covers the area */
+            margin-bottom: 15px;
+        }
+        .shop-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            width: 85%;
+            background: white;
+            padding: 20px;
+            margin: 50px;
+        }
+
+        .shop-links a {
+            color: #0067b8;
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .shop-links a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            min-height: 585px;
+            background: url('microsoft_bg.jpg') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .banner .content{
+            text-align: left;
+            color: black;
+            background-color: white;
+            padding: 20px;
+            margin-left: 100px;
+        }
+
+        .banner h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-icons">
+            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt="microsoftlogo">
+            <a href="#">Microsoft 365</a>
+            <a href="#">Teams</a>
+            <a href="#">Copilot</a>
+            <a href="#">Windows</a>
+            <a href="#">Surface</a>
+            <a href="#">Xbox</a>
+            <a href="#">Deals</a>
+            <a href="#">Small Business</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="header-icons">
+            <a href="#">All Microsoft</a>
+            <a href="#">Search</a>
+            <a href="#">Cart</a>
+            <a href="#">Sign in</a>
+        </div>
+    </div>
+    <div class="learnmore">
+        <a href="#">Pay your way, with flexible payment options available at checkout. Learn more ></a>
+    </div>
+    <div class="banner">
+        <div class="content">
+            <h1>Meet Surface Pro</h1>
+            <p>This laptop`s unrivaled flexibility and AI features like Live Captions and<br>
+            Cocreator enable you to do more than you ever imagined</p>
+            <button class="purchase">Buy now</button>
+        </div>
+    </div>
+    <div class="shop-links">
+        <a href="#">Shop Surface devices</a>
+        <a href="#">Shop Xbox games and consoles</a>
+        <a href="#">Shop for accessories</a>
+        <a href="#">Shop for your business</a>
+        <a href="#">Find your next PC</a>
+        <a href="#">Choose your Microsoft 365</a>
+    </div>
+    <div class="container">
+        <div class="feature-box">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-AI-7Ed-Platinum-MC006?wid=406&hei=230&fit=crop" alt="preview">
+            <h2>Surface Laptop, Copilot+ <br> PC</h2>
+            <p>Unlock all features like Live Captions and <br>
+                Cocreator with exceptionally powerful <br>
+                laptop</p>
+            <button class="purchase">Shop now</button>
+        </div>
+        <div class="feature-box">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-AI-7Ed-Platinum-MC006?wid=406&hei=230&fit=crop" alt="preview">
+            <h2>Xbox series S</h2>
+            <p>Next-gen performance in the smallest Xbox<br>
+                ever</p>
+            <button class="purchase">Shop Xbox Series S</button>
+        </div>
+        <div class="feature-box">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-AI-7Ed-Platinum-MC006?wid=406&hei=230&fit=crop" alt="preview">
+            <h2>Xbox controllers</h2>
+            <p>Elite, wireless, adaptive-find the controller<br>
+            that fits your style of play</p>
+            <button class="purchase">Shop Now</button>
+        </div>
+        <div class="feature-box">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-AI-7Ed-Platinum-MC006?wid=406&hei=230&fit=crop" alt="preview">
+            <h2>Xbox presents <br> Developer_Direct</h2>
+            <p>Tune in January 23 at 10 AM PT to hear directly<br>
+            from the developers</p>
+            <button class="purchase">Learn more</button>
+
+        </div>
+    </div>
+</body>
+</html>
