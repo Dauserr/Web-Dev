@@ -1,0 +1,11 @@
+<div class="product-item">
+  <img [src]="product.image" alt="{{ product.name }}">
+  <div class="product-details">
+    <h3>{{ product.name }}</h3>
+    <p class="product-description">{{ product.description }}</p>
+    <div class="likes">
+      <button (click)="increaseLikes()">Like</button>
+      <span>{{ product.likes }} Likes</span>
+    </div>
+  </div>
+</div>
