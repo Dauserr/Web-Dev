@@ -1,0 +1,11 @@
+<h2>Album Details</h2>
+<div *ngIf="album">
+    <p><strong>Album ID:</strong> {{ album.id }}</p>
+    <label>
+        <strong>Title:</strong>
+        <input [(ngModel)]="album.title" />
+    </label>
+    <button (click)="saveChanges()">Save</button>
+    <button (click)="goBack()">Return</button>
+    <button (click)="goToPhotos()">Photos</button>
+</div>
